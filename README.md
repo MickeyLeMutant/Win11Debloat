@@ -230,27 +230,6 @@ The default mode allows you to quickly and easily apply the changes that are rec
 > [!Warning]
 > Great care went into making sure this script does not unintentionally break any OS functionality, but use at your own risk!
 
-### Quick method
-
-Download & run the script automatically via PowerShell. All files related to the script are saved to `%temp%/Win11Debloat` if you wish to inspect them. The script automatically cleans up the files after execution.
-
-1. Open PowerShell, preferably as an administrator.
-2. Copy and paste the code below into PowerShell, press enter to run the script:
-
-```PowerShell
-& ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
-```
-
-3. Wait for the script to automatically download Win11Debloat.
-4. A new PowerShell window will open showing the Win11Debloat menu. Select either the default or custom mode to continue.
-5. Carefully read through and follow the on-screen instructions.
-
-This method supports [parameters](#parameters). To use parameters simply run the script as explained above, but add the parameters at the end with spaces in between. Example:
-
-```PowerShell
-& ([scriptblock]::Create((irm "https://debloat.raphi.re/"))) -RunDefaults -Silent
-```
-
 ### Traditional method
 
 Manually download & run the script.
